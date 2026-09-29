@@ -1,0 +1,79 @@
+body {
+  background: #BDE3C3;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+}
+.container {
+    background: #F5D2D2;
+    max-width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 100px;
+   text-align: center;
+  
+}
+.quiz-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.left-column {
+  display:grid;
+
+  flex-direction: column;
+  gap: 20px;
+ 
+  
+}
+.icon {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  /* Optional: center the icon */
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* To match the layout in your image */
+.app-feature {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between icon and text */
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #a3ccda;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  transition: backgound-color 0.3s;
+}
+ 
+a {
+  text-decoration: none;
+}
+
+.bg {
+  background-image: url("pista.jpg");
+  background-size: auto;
+  background-position: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  filter: blur(1px)
+  /*transition: filter 0.3s ease-in-out;*/
+
+}
